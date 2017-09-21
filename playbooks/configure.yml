@@ -1,0 +1,13 @@
+- hosts: all
+  roles:
+    - tersmitten.locales
+    - galexrt.ansible-ntpdate
+    - dev-sec.ssh-hardening
+    - geerlingguy.docker
+  vars:
+    ssh_use_pam: true
+    sftp_enabled: true
+    ssh_allow_root_with_key: true
+  tags:
+    - base_configure
+

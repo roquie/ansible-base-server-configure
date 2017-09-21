@@ -1,0 +1,12 @@
+# http://docs.ansible.com/ansible/galaxy.html#installing-multiple-roles-from-a-file
+- src: tersmitten.locales
+  version: v1.0.9
+
+- name: galexrt.ansible-ntpdate
+
+- name: geerlingguy.docker
+  version: 2.0.5
+
+- src: https://github.com/dev-sec/ansible-ssh-hardening.git
+  name: dev-sec.ssh-hardening
+  version: 4.3.0

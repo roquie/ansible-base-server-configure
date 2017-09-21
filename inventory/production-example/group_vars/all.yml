@@ -1,0 +1,17 @@
+---
+
+# Ansible
+ansible_python_interpreter: "/usr/bin/python3"
+ansible_ssh_port: 22
+ansible_ssh_user: "root"
+
+# Locales
+locales_present:
+  - en_US.UTF-8
+
+locales_default:
+  lang: en_US.UTF-8
+
+# Docker
+# docker_package: "docker-ce=17.06*"
+

@@ -1,0 +1,11 @@
+[vagrant]
+10.110.0.15
+
+[docker_engine]
+10.110.0.15
+
+[docker_swarm_manager]
+10.110.0.15
+
+[docker_swarm_worker]
+10.110.0.15
